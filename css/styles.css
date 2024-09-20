@@ -257,6 +257,22 @@ header a span {
 .job {
   text-align: center;
 }
+#icon-icon-1{
+  border:1px solid #8e8f99;
+  border-radius: 5%;
+}
+#icon-icon-2{
+  border:1px solid #8e8f99;
+  border-radius: 5%;
+}
+#icon-icon-3{
+  border:1px solid #8e8f99;
+  border-radius: 5%;
+}
+#icon-icon-4{
+  border:1px solid #8e8f99;
+  border-radius: 5%;
+}
 .social-media{
   list-style-type: none;
   display: flex;
