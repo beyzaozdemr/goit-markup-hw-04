@@ -78,6 +78,10 @@ header a span {
   
   
 }
+.web-navi-item:focus:after{
+  
+
+}
 .page-menu-list a:hover {
   color: #404bbf;
 }
