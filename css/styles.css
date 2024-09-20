@@ -127,7 +127,7 @@ header a span {
   margin: 0 auto;
   padding: 188px 0;
   box-sizing: border-box;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/office-photo.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/office-photo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
