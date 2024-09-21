@@ -462,9 +462,9 @@ footer a span {
 #icon-facebook-f:hover {
   --color1: #31d0aa;
 }
-#icon-insta-f {
+#icon-instagram-f {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-#icon-insta-f:hover {
+#icon-instagram-f:hover {
   --color1: #31d0aa;
 }
