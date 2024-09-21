@@ -417,29 +417,54 @@ footer a span {
   display: flex;
   width: 208px;
   height: 40px;
+  gap:24px;
 }
 
 #icon-linkedin {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #icon-linkedin:hover {
-  --color1: #31d0aa;
+  --color1: #404bbf;
 }
 #icon-twitter {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #icon-twitter:hover {
-  --color1: #31d0aa;
+  --color1: #404bbf;
 }
 #icon-facebook {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #icon-facebook:hover {
-  --color1: #31d0aa;
+  --color1: #404bbf;
 }
 #icon-insta {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #icon-insta:hover {
+  --color1: #404bbf;
+}
+#icon-linkedin-f {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#icon-linkedin-f:hover {
+  --color1: #31d0aa;
+}
+#icon-twitter-f {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#icon-twitter-f:hover {
+  --color1: #31d0aa;
+}
+#icon-facebook-f {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#icon-facebook-f:hover {
+  --color1: #31d0aa;
+}
+#icon-insta-f {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#icon-insta-f:hover {
   --color1: #31d0aa;
 }
