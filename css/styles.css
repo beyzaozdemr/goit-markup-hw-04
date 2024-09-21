@@ -294,9 +294,12 @@ header a span {
 .social-media{
   list-style-type: none;
   display: flex;
- 
-  justify-content: space-between;
+  width: 232px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
   gap: 24px;
+  margin: 0 auto;
  
 }
 .portfolio {
@@ -420,9 +423,34 @@ footer a span {
   
   
 }
+.social-media-icon-list-foot{
+  list-style-type: none;
+  display: flex;
+  width: 208px;
+  height: 40px;
+}
+
 #icon-linkedin{
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #icon-linkedin:hover{
+  --color1: #31D0AA
+}
+#icon-twitter{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#icon-twitter:hover{
+  --color1: #31D0AA
+}
+#icon-facebook{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#icon-facebook:hover{
+  --color1: #31D0AA
+}
+#icon-insta{
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#icon-insta:hover{
   --color1: #31D0AA
 }
