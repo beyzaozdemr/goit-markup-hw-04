@@ -409,8 +409,8 @@ footer a span {
   gap:120px;
 }
 .social-media-foot{
- size:16px;
- weight:500;
+ font-size:16px;
+ font-weight:500;
  color:#ffffff;
  line-height:1.5;
  letter-spacing: 2%;
