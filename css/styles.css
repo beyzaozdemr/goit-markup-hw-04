@@ -339,7 +339,7 @@ header a span {
   opacity: 0;
   transition:250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
-.portfolio-overlay p{
+.port-content{
   position: absolute;
   font-weight: 400;
   color: #f4f4fd;
