@@ -293,6 +293,7 @@ header a span {
   align-items: center;
   gap: 24px;
   margin: 0 auto;
+  padding-top: 8px;
 }
 .portfolio {
   display: flex;
@@ -323,11 +324,11 @@ header a span {
   row-gap: 48px;
 }
 
-.portfolio-item{
+.portfolio-item {
   position: relative;
   overflow: hidden;
 }
-.portfolio-overlay{
+.portfolio-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -335,16 +336,16 @@ header a span {
   height: 300px;
   display: flex;
   margin: 0 auto;
-  background-color:#4d5ae5;
+  background-color: #4d5ae5;
   color: #f4f4fd;
   opacity: 0;
-  transition:250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfo-content{
+.portfo-content {
   color: #f4f4fd;
   opacity: 1;
-  top:40px;
-  left:32px;
+  top: 40px;
+  left: 32px;
   position: absolute;
   font-size: 16px;
   font-weight: 400;
@@ -352,10 +353,10 @@ header a span {
   letter-spacing: 2%;
 }
 
-.portfolio-item:hover .portfolio-overlay{
+.portfolio-item:hover .portfolio-overlay {
   opacity: 1;
 }
-.portfolio-item:hover{
+.portfolio-item:hover {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
     0px 1px 6px 0px #2e2f4214;
@@ -379,7 +380,6 @@ header a span {
 .portfolio-images {
   max-width: 360px;
   max-height: 420px;
-  
 }
 
 .portfolio-title {
@@ -455,7 +455,7 @@ footer a span {
   display: flex;
   width: 208px;
   height: 40px;
-  gap:24px;
+  gap: 24px;
 }
 
 #icon-linkedin {
