@@ -326,8 +326,8 @@ header a span {
 }
 
 .image-plus-overlay {
-  max-width: 360px;
-  max-height: 300px;
+  height:calc(100%-120px);
+  width: 100%;
   position: relative;
   overflow: hidden;
   transition-property: background-color;
