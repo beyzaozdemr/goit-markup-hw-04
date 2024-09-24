@@ -295,6 +295,7 @@ header a span {
   margin: 0 auto;
   padding-top: 8px;
 }
+
 .portfolio {
   display: flex;
   padding: 120px 0;
@@ -324,26 +325,26 @@ header a span {
   row-gap: 48px;
 }
 
-.portfolio-item {
+.image-plus-overlay {
+  max-width: 360px;
+  max-height: 300px;
   position: relative;
   overflow: hidden;
-  transition-property: bow-shadow,background-color;
+  transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
-
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height:calc(100%-120px);
+  height: 100%;
   display: flex;
   margin: 0 auto;
   background-color: #4d5ae5;
   color: #f4f4fd;
   opacity: 0;
- 
 }
 .portfo-content {
   color: #f4f4fd;
@@ -357,15 +358,11 @@ header a span {
   letter-spacing: 2%;
 }
 
-.portfolio-item:hover .portfolio-overlay {
+.image-plus-overlay:hover .portfolio-overlay {
   opacity: 1;
-  
 }
-.portfolio-item:hover {
-  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
-    0px 1px 6px 0px #2e2f4214;
-    
-    background-color: #4d5ae5;
+.image-plus-overlay:hover {
+  background-color: #4d5ae5;
 }
 .team-class-list h3 {
   font-size: 20px;
