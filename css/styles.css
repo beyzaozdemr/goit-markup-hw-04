@@ -455,61 +455,77 @@ footer a span {
   margin-bottom: 16px;
 }
 .social-foot {
-  width: 208px;
-  height: 80px;
+  max-width: 208px;
+  max-height: 80px;
 }
 .social-media-icon-list-foot {
   list-style-type: none;
   display: flex;
-  width: 208px;
-  height: 40px;
+  max-width: 208px;
+  max-height: 40px;
   gap: 24px;
 }
 
 #icon-linkedin {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
 #icon-linkedin:hover {
   --color1: #404bbf;
 }
 #icon-twitter {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
 #icon-twitter:hover {
   --color1: #404bbf;
 }
 #icon-facebook {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
 #icon-facebook:hover {
   --color1: #404bbf;
 }
 #icon-insta {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
 #icon-insta:hover {
   --color1: #404bbf;
 }
 #icon-linkedin-f {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
 #icon-linkedin-f:hover {
   --color1: #31d0aa;
 }
 #icon-twitter-f {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
 #icon-twitter-f:hover {
   --color1: #31d0aa;
 }
 #icon-facebook-f {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
 #icon-facebook-f:hover {
   --color1: #31d0aa;
 }
 #icon-instagram-f {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: var(--color1);
 }
 #icon-instagram-f:hover {
   --color1: #31d0aa;
