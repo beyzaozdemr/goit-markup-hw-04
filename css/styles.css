@@ -327,23 +327,23 @@ header a span {
 .portfolio-item {
   position: relative;
   overflow: hidden;
-  transition-property: bow-shadow;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: bow-shadow,background-color;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
 
 }
 .portfolio-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 360px;
-  height: 300px;
+  width: 100%;
+  height:auto;
   display: flex;
   margin: 0 auto;
   background-color: #4d5ae5;
   color: #f4f4fd;
   opacity: 0;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+ 
 }
 .portfo-content {
   color: #f4f4fd;
@@ -359,11 +359,13 @@ header a span {
 
 .portfolio-item:hover .portfolio-overlay {
   opacity: 1;
+  
 }
 .portfolio-item:hover {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
     0px 1px 6px 0px #2e2f4214;
     
+    background-color: #4d5ae5;
 }
 .team-class-list h3 {
   font-size: 20px;
