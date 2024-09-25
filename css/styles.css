@@ -324,7 +324,7 @@ header a span {
   column-gap: 24px;
   row-gap: 48px;
 }
-.portfolio-item:hover{
+.port-div:hover{
   box-shadow: 
   0px 2px 1px 0px #2E2F4214,
   0px 1px 1px 0px #2E2F4229,
