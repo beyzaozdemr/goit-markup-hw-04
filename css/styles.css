@@ -469,66 +469,82 @@ footer a span {
 }
 
 #icon-linkedin {
+  --color1: var(--color1);
+  --color2: var(--color2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
 }
 #icon-linkedin:hover {
-  fill: #404bbf;
+  --color1: #404bbf;
 }
 #icon-twitter {
+  --color1: var(--color1);
+  --color2: var(--color2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
 }
 #icon-twitter:hover {
-  fill: #404bbf;
+  --color1: #404bbf;
 }
 #icon-facebook {
+  --color1: var(--color1);
+  --color2: var(--color2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
 }
 #icon-facebook:hover {
-  fill: #404bbf;
+  --color1: #404bbf;
 }
 #icon-insta {
+  --color1: var(--color1);
+  --color2: var(--color2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
 }
 #icon-insta:hover {
-  fill: #404bbf;
+  --color1: #404bbf;
 }
 #icon-linkedin-f {
+  --color1: var(--color1);
+  --color2: var(--color2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
 }
 #icon-linkedin-f:hover {
-  fill: #31d0aa;
+  --color1: #31d0aa;
 }
 #icon-twitter-f {
+  --color1: var(--color1);
+  --color2: var(--color2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
 }
 #icon-twitter-f:hover {
-  fill: #31d0aa;
+  --color1: #31d0aa;
 }
 #icon-facebook-f {
+  --color1: var(--color1);
+  --color2: var(--color2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
 }
 #icon-facebook-f:hover {
-  fill: #31d0aa;
+  --color1: #31d0aa;
 }
 #icon-instagram-f {
+  --color1: var(--color1);
+  --color2: var(--color2);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
 }
 #icon-instagram-f:hover {
-  fill: #31d0aa;
+  --color1: #31d0aa;
 }
