@@ -73,6 +73,9 @@ header a span {
   letter-spacing: 2%;
   color: #2e2f42;
   position: relative;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
 }
 .web-navi-item:active::after {
   content: "";
@@ -85,10 +88,10 @@ header a span {
   border-radius: 2px;
 }
 
-.page-menu-list a:hover {
+.web-navi-item:hover {
   color: #404bbf;
 }
-.page-menu-list a:focus {
+.web-navi-item:focus {
   color: #404bbf;
 }
 .contacts {
@@ -112,6 +115,9 @@ header a span {
   letter-spacing: 2%;
   color: #434455;
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-duration:cubic-bezier(0.4, 0, 0.2, 1) ;
+  transition-property: color;
 }
 .mail-tel-item:focus {
   color: #404bbf;
@@ -314,6 +320,9 @@ header a span {
   border-left: 1px solid #e7e9fc;
   padding: 36px 16px;
   margin-bottom: 8px;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1) ;
+  transition-property: box-shadow;
 }
 .portfolio-list {
   display: flex;
