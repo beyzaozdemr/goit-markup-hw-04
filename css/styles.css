@@ -471,64 +471,64 @@ footer a span {
 #icon-linkedin {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 #icon-linkedin:hover {
-  --color1: #404bbf;
+  fill: #404bbf;
 }
 #icon-twitter {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 #icon-twitter:hover {
-  --color1: #404bbf;
+  fill: #404bbf;
 }
 #icon-facebook {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 #icon-facebook:hover {
-  --color1: #404bbf;
+  fill: #404bbf;
 }
 #icon-insta {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 #icon-insta:hover {
-  --color1: #404bbf;
+  fill: #404bbf;
 }
 #icon-linkedin-f {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 #icon-linkedin-f:hover {
-  --color1: #31d0aa;
+  fill: #31d0aa;
 }
 #icon-twitter-f {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 #icon-twitter-f:hover {
-  --color1: #31d0aa;
+  fill: #31d0aa;
 }
 #icon-facebook-f {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 #icon-facebook-f:hover {
-  --color1: #31d0aa;
+  fill: #31d0aa;
 }
 #icon-instagram-f {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: var(--color1);
+  transition-property: fill;
 }
 #icon-instagram-f:hover {
-  --color1: #31d0aa;
+  fill: #31d0aa;
 }
